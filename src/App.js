@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
-
+import {useState,useRef} from 'react';
+import { NavbarContainer } from './components/Navbar';
+import {Banner} from './components/Banner';
+import {Skills} from './components/Skills'
+import {Projects} from './components/Projects';
+import {Contact} from './components/Contact';
+import {Footer} from './components/Footer';
+import {ModalEmail} from './components/Modal';
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
+  const [isModalVisible,setModalVisible] = useState(false);
+  const [modalMessage,setModalMessage] = useState('');
+  const [isEmailSent,setIsEmailSent] = useState(false);
+  const contactRef = useRef(null);
+
+  const handleShowModal = (isModalVisible,isEmailSent,modalMessage)=>{
+    setIsEmailSent(isEmailSent);
+    setModalVisible(isModalVisible);
+    setModalMessage(modalMessage);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavbarContainer/>
+      <Banner contactRef={contactRef}/>
+      <Skills/>
+      <Projects/>
+      <Contact contactRef={contactRef} handleShowModal={handleShowModal}/>
+      <Footer/>
+      <ModalEmail show={isModalVisible} emailSent= {isEmailSent} message={modalMessage} handleShowModal ={handleShowModal}/>
     </div>
   );
 }
