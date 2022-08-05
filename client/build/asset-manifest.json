@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee8755ec.css",
+    "main.js": "/static/js/main.04b35f1e.js",
+    "static/media/invisible_card.png": "/static/media/invisible_card.d55a28ed5d36327dfa01.png",
+    "static/media/furniture_store.png": "/static/media/furniture_store.d075846a82cd34de8284.png",
+    "static/media/profile_card.png": "/static/media/profile_card.7ae27cf36b3e71910f82.png",
+    "static/media/ecommerce.png": "/static/media/ecommerce.991a918de3db5ee013f7.png",
+    "static/media/hamburger_menu.png": "/static/media/hamburger_menu.317948c385a8ba5bd551.png",
+    "static/media/grand_hotel.png": "/static/media/grand_hotel.91191d190a26b066427c.png",
+    "static/media/custom_signup.png": "/static/media/custom_signup.a7e05ca843fe64fe0c12.png",
+    "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/tic-tac-toe.png": "/static/media/tic-tac-toe.7c92d40b812eefcb93cc.png",
+    "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
+    "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/project-img3.png": "/static/media/project-img3.675b30d2f975a1bc1d09.png",
+    "static/media/contact-img.svg": "/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/github.svg": "/static/media/github.9cd776745ea31fd6c12f1707b2265f71.svg",
+    "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "index.html": "/index.html",
+    "static/media/stack-overflow.svg": "/static/media/stack-overflow.fbf2d3418de2e03188e5d2a365957d3b.svg",
+    "main.ee8755ec.css.map": "/static/css/main.ee8755ec.css.map",
+    "main.04b35f1e.js.map": "/static/js/main.04b35f1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee8755ec.css",
+    "static/js/main.04b35f1e.js"
+  ]
+}
