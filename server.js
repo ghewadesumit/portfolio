@@ -5,8 +5,6 @@ const nodemailer = require("nodemailer");
 const port = process.env.PORT || 5000;
 const path = require('path');
 
-console.log(process.env);
-
 // server used to send send emails
 const app = express();
 app.use(cors());
@@ -25,6 +23,5 @@ if(process.env.NODE_ENV === 'production'){
 }
 
 router.get('/resume',(req,res)=>{
-    console.log(`${__dirname}/resume.pdf`);
     res.download(`${__dirname}/resume.pdf`);
 })
