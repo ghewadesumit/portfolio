@@ -1,0 +1,43 @@
+/*************Star Rating*************/
+
+input[type="radio"]{
+    display:none;
+  }
+  
+  .star{
+    cursor:pointer;
+    transition: color 200ms;
+  }
+  
+  .starContainer{
+    width:200px;
+  height:180px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  background-color: #151515;
+  /* border:1px solid red; */
+  margin:0 auto 0px auto;
+  box-shadow:0 30px 60px rgba(0,0,0,.2);
+  }
+
+  .iconContainer{
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
+  .starHolder{
+    position:relative;
+    /* border:1px solid white; */
+    width:300px;
+  
+  }
+
+
+  
+  .halfStar{
+    position:absolute;
+    cursor:pointer;
+  
+  }

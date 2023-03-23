@@ -78,16 +78,9 @@ export const projects = [
     },
   ];
 
-  export const skills = [
-    {skillName:'React',percentage:70},
-    {skillName:'Node.js', percentage:50},
-    {skillName:'JavaScript',percentage:80},
-    {skillName:'Redux', percentage:60},
-    {skillName:'CSS',percentage:60},
-    {skillName:'MongoDB',percentage:50},
-    {skillName:'MySql',percentage:50},]
+
 
 
 export const projectDescription = 'These projects where built while I was learning new tech stack and making myself familiar with it. Some project links do actually work so check them out.';
 export const skillDescription = 'Technology stack that I have learnt and used while sailing the path of programming. Feel free to ask me any doubt regarding the below mentioned stack and hopefully I would be able to answer them.';
-export const aboutme = `Graduated with a Master's Degree in Computer Science from the University of Cincinnati. Have 4+ years of professional experience as a Full-stack developer. I like to play around UI and kinda love solving Data structure and algorithm challenges. When I'm not working I will be either Gaming, Traveling, Filming, Gyming,.. you get the idea :)`;
+export const aboutme = `Graduated with a Master's Degree in Computer Science from the University of Cincinnati. Have 4+ years of professional experience as a Full-stack developer. I love to play around UI and like solving Data structure and algorithm challenges. When I'm not working I will be either Gaming, Traveling, Filming, Gyming,.. you get the idea :)`;

@@ -4,7 +4,9 @@ import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
 import {Container,Row,Col} from 'react-bootstrap';
 import { SkillPercetage } from "./SkillPercentage";
-import {skillDescription, skills} from './projectData';
+import {skillDescription} from './projectData';
+import {skills} from '../common/constants';
+import { SkillStarRating } from './SkillStarRating';
 
 export const Skills = () => {
     const responsive = {
@@ -29,14 +31,14 @@ export const Skills = () => {
 
 
     const skillsContent = skills.map((skill,index)=>{
-        return ( <SkillPercetage key={index} percentage={skill.percentage} skillName={skill.skillName}/>)
+        return ( <SkillStarRating key={`${skill.skillName}-index`} skillIcon={skill.icon} rating={skill.rating} skillName={skill.skillName}/>)
     })
     return(
         <section className="skill" id="skills">
             <Container>
                 <Row>
                     <Col>
-                        <div className="skill-bx">
+                    <div className="skill-bx">
                         <h2>Skills</h2>
                             <p>{skillDescription}</p>
                                 <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
