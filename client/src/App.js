@@ -8,6 +8,8 @@ import {Contact} from './components/Contact';
 import {Footer} from './components/Footer';
 import {ModalEmail} from './components/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 function App() {
   const [isModalVisible,setModalVisible] = useState(false);
   const [modalMessage,setModalMessage] = useState('');
@@ -19,15 +21,19 @@ function App() {
     setModalVisible(isModalVisible);
     setModalMessage(modalMessage);
   }
+
+  
+
   return (
     <div className="App">
-      <NavbarContainer/>
+     <NavbarContainer/>
       <Banner contactRef={contactRef}/>
       <Skills/>
       <Projects/>
       <Contact contactRef={contactRef} handleShowModal={handleShowModal}/>
       <Footer/>
       <ModalEmail show={isModalVisible} emailSent= {isEmailSent} message={modalMessage} handleShowModal ={handleShowModal}/>
+      
     </div>
   );
 }
