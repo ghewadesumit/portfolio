@@ -22,5 +22,5 @@ if(process.env.NODE_ENV === 'production'){
 }
 
 router.get('/resume',(req,res)=>{
-    res.download(`${__dirname}/resume.pdf`);
+    res.download(`${__dirname}/Resume.pdf`);
 })

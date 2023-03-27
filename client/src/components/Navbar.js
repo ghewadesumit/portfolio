@@ -27,7 +27,7 @@ export const NavbarContainer = ()=>{
         e.preventDefault();
         const resumeData = await fetch('/resume');
         const blob = await resumeData.blob();
-        download(blob,'resume.pdf');
+        download(blob,'Sumit Ghewade Resume.pdf');
     }
 
     const handleUpdateActiveLink = (value) => {

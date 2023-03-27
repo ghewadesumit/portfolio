@@ -4,7 +4,7 @@ import {ArrowRightCircle} from 'react-bootstrap-icons';
 import 'animate.css';
 import headerImg from "../assets/img/header-img.svg";
 import TrackVisibility from 'react-on-screen';
-import {aboutme} from './projectData';
+import {aboutme} from '../common/constants';
 
 export const Banner = ({contactRef})=>{
     const period = 350;
