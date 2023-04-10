@@ -2,7 +2,7 @@ import './App.css';
 import {useState,useRef} from 'react';
 import { NavbarContainer } from './components/Navbar/Navbar';
 import {Banner} from './components/Banner/Banner';
-import {Skills} from './components/Skills'
+import {Skills} from './components/Skills/Skills'
 import {Projects} from './components/Projects';
 import {Contact} from './components/Contact';
 import {Footer} from './components/Footer';
