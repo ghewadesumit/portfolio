@@ -1,6 +1,7 @@
-import linkedIn from "../assets/img/nav-icon1.svg";
-import github from "../assets/img/github.svg";
-import stackoverflow from "../assets/img/stack-overflow.svg";
+import linkedIn from "../../assets/img/nav-icon1.svg";
+import github from "../../assets/img/github.svg";
+import stackoverflow from "../../assets/img/stack-overflow.svg";
+import './SocialIcons.scss';
 
 export const SocialIcons = ()=>{
 

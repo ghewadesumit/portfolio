@@ -4,7 +4,7 @@ import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../../assets/img/color-sharp.png"
 import {Container,Row,Col} from 'react-bootstrap';
 import {skills,skillDescription} from '../../common/constants';
-import { SkillStarRating } from '../SkillStarRating';
+import { SkillStarRating } from './SkillStarRating';
 import './Skills.scss';
 
 export const Skills = () => {

@@ -1,10 +1,10 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import colorSharp2 from "../../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { projects} from './projectData';
-import { projectDescription} from '../common/constants';
+import { projectDescription,projects} from '../../common/constants';
+import './Project.scss';
 
 
 export const Projects = () => {

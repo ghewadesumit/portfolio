@@ -1,5 +1,5 @@
-import React,{useState} from 'react'
-import '../common/styles/SkillStarRating.css';
+import React from 'react'
+import './SkillStarRating.scss';
 
 import {FaStar} from 'react-icons/fa';
 import { FaStarHalf } from 'react-icons/fa';

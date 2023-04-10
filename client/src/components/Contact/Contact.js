@@ -1,9 +1,10 @@
 import { useState ,useRef} from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import emailjs from '@emailjs/browser';
+import './Contact.scss';
 
 export const Contact = ({handleShowModal,contactRef}) => {
   const formInitialDetails = {
