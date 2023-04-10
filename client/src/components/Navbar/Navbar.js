@@ -3,7 +3,8 @@ import {Navbar, Nav, Container} from 'react-bootstrap';
 import {Download} from 'react-bootstrap-icons';
 import 'animate.css';
 import download from 'downloadjs';
-import {SocialIcons} from './SocialIcons';
+import {SocialIcons} from '../SocialIcons';
+import './Navbar.scss';
 
 export const NavbarContainer = ()=>{
     const [activeLink,setActiveLink] = useState('home');

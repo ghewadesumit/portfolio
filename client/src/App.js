@@ -1,7 +1,7 @@
 import './App.css';
 import {useState,useRef} from 'react';
-import { NavbarContainer } from './components/Navbar';
-import {Banner} from './components/Banner';
+import { NavbarContainer } from './components/Navbar/Navbar';
+import {Banner} from './components/Banner/Banner';
 import {Skills} from './components/Skills'
 import {Projects} from './components/Projects';
 import {Contact} from './components/Contact';
