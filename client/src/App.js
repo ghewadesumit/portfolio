@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import {useState,useRef} from 'react';
 import { NavbarContainer } from './components/Navbar/Navbar';
 import {Banner} from './components/Banner/Banner';
