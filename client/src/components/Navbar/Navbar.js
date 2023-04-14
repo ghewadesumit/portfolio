@@ -47,7 +47,7 @@ export const NavbarContainer = ()=>{
         </Nav>
         <span className="navbar-text">
             <SocialIcons/>
-            {/* <button  onClick={(e)=> handleDownload(e)}className="vvd"><span>Download Resume <span className="download"><Download size={25} /></span></span></button> */}
+            <button  onClick={(e)=> handleDownload(e)}className="vvd"><span>Download Resume <span className="download"><Download size={25} /></span></span></button>
         </span>
       </Navbar.Collapse>
     </Container>
