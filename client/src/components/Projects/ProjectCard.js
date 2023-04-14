@@ -1,5 +1,6 @@
 import { Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
+import './Project.scss';
 
 export const ProjectCard = ({ title, description,projectUrl, isProjectLive, imgUrl }) => {
   return (

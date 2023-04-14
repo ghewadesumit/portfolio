@@ -2,9 +2,10 @@ import {useEffect, useState} from 'react';
 import {Container,Row,Col} from 'react-bootstrap';
 import {ArrowRightCircle} from 'react-bootstrap-icons';
 import 'animate.css';
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../../assets/img/header-img.svg";
 import TrackVisibility from 'react-on-screen';
-import {aboutme} from '../common/constants';
+import {aboutme} from '../../common/constants';
+import './Banner.scss';
 
 export const Banner = ({contactRef})=>{
     const period = 350;

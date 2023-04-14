@@ -9,6 +9,21 @@ import node from '../../assets/img/nodejs.svg';
 import mysql from '../../assets/img/mysql.svg';
 import redux from '../../assets/img/redux.svg';
 
+
+
+import eCommerce from "../../assets/img/ecommerce.png";
+import grandHotel from "../../assets/img/grand_hotel.png";
+import hamburgerMenu from "../../assets/img/hamburger_menu.png";
+
+import invisibleCard from "../../assets/img/invisible_card.png";
+import customSignupForm from "../../assets/img/custom_signup.png";
+import furnitureStore from "../../assets/img/furniture_store.png";
+
+import ticTacToe from "../../assets/img/tic-tac-toe.png";
+
+import profileCard from "../../assets/img/profile_card.png";
+import projImg3 from "../../assets/img/project-img3.png";
+
 export const skills = [
     {skillName:'React',icon:<img alt="react" src={react}/>,rating:4.5,percentage:70},
     {skillName:'Angular',icon:<img alt="angular" src={angular}/>,rating:3,percentage:70},

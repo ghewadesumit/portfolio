@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { SocialIcons } from "./SocialIcons";
+import { SocialIcons } from "../SocialIcons/SocialIcons";
+import './Footer.scss';
 
 export const Footer = () => {
   return (

@@ -1,6 +1,6 @@
-import {useState} from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import './Modal.scss';
 
 export const ModalEmail = ({message,show,emailSent,handleShowModal})=>{
 
