@@ -2,7 +2,6 @@ import {useState,useEffect} from 'react';
 import {Navbar, Nav, Container} from 'react-bootstrap';
 import {Eye} from 'react-bootstrap-icons';
 import 'animate.css';
-import download from 'downloadjs';
 import {SocialIcons} from '../SocialIcons/SocialIcons';
 import './Navbar.scss';
 import SumitResume from '../../assets/docs/Sumit Resume.pdf';
@@ -19,18 +18,10 @@ export const NavbarContainer = ()=>{
                 setIsScrolled(false);
             }
         }
-
         window.addEventListener('scroll',onScroll);
 
         return ()=> window.removeEventListener('scroll',onScroll);
     },[])
-
-    const handleDownload = async(e)=>{
-        e.preventDefault();
-        const resumeData = await fetch('/resume');
-        const blob = await resumeData.blob();
-        download(blob,'Sumit Ghewade Resume.pdf');
-    }
 
     const handleUpdateActiveLink = (value) => {
         setActiveLink(value);
