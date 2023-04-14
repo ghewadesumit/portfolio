@@ -40,7 +40,7 @@ export const Skills = () => {
                     <div className="skill-bx">
                         <h2>Skills</h2>
                             <p>{skillDescription}</p>
-                                <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                                <Carousel autoPlay={true} responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                     {skillsContent}    
                                 </Carousel>
                         </div>
