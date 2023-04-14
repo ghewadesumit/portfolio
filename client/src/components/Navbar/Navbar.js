@@ -1,10 +1,11 @@
 import {useState,useEffect} from 'react';
 import {Navbar, Nav, Container} from 'react-bootstrap';
-import {Download} from 'react-bootstrap-icons';
+import {Eye} from 'react-bootstrap-icons';
 import 'animate.css';
 import download from 'downloadjs';
 import {SocialIcons} from '../SocialIcons/SocialIcons';
 import './Navbar.scss';
+import SumitResume from '../../assets/docs/Sumit Resume.pdf';
 
 export const NavbarContainer = ()=>{
     const [activeLink,setActiveLink] = useState('home');
@@ -47,7 +48,7 @@ export const NavbarContainer = ()=>{
         </Nav>
         <span className="navbar-text">
             <SocialIcons/>
-            <button  onClick={(e)=> handleDownload(e)}className="vvd"><span>Download Resume <span className="download"><Download size={25} /></span></span></button>
+            <Nav.Link href={SumitResume} className="vvd" target='blank'><span>View Resume <span className="download"><Eye size={25} /></span></span></Nav.Link>
         </span>
       </Navbar.Collapse>
     </Container>
