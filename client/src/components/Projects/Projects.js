@@ -17,7 +17,7 @@ export const Projects = () => {
                 <TrackVisibility>
                   {({ isVisible }) =>
                   <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                    <h2>Projects</h2>
+                    <h2>Projects</h2>'background'
                     <p>{projectDescription} </p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                           <Row>
@@ -38,7 +38,7 @@ export const Projects = () => {
               </Col>
             </Row>
           </Container>
-          <img className="background-image-right" src={colorSharp2}></img>
+          <img className="background-image-right" src={colorSharp2} alt={'background'}></img>
         </section>
       )
 }

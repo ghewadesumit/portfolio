@@ -18,8 +18,8 @@ export const Contact = ({handleShowModal,contactRef}) => {
   const form = useRef();
 
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Send');
-  const [status, setStatus] = useState({});
+  const buttonText= 'Send';
+  // const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
       setFormDetails({
@@ -79,12 +79,12 @@ export const Contact = ({handleShowModal,contactRef}) => {
                       <textarea rows="6" value={formDetails.message} name="message" placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
                       <button type="submit"><span>{buttonText}</span></button>
                     </Col>
-                    {
+                    {/* {
                       status.message &&
                       <Col>
                         <p className={status.success === false ? "danger" : "success"}>{status.message}</p>
                       </Col>
-                    }
+                    } */}
                   </Row>
                 </form>
               </div>}
