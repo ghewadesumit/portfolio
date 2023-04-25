@@ -15,19 +15,21 @@ export const Banner = ({contactRef})=>{
     const [delta,setDelta] = useState(period);
     const [text,setText] = useState('');
     const toRotate = ['Web Developer', "Software Developer", "Full-Stack Developer"];
-    const [index, setIndex] = useState(1);
+    // const [index, setIndex] = useState(1);
 
-
+  // console.log('redering')
     useEffect(()=>{
         let ticker = setInterval(()=>{
             tick()
         },delta)
 
         return ()=>{ clearInterval(ticker)};
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     },[text]);
 
     const tick = ()=>{
-        
+      
+        // console.log('running',text)
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
         let updatedText = isDeleting ? fullText.substring(0,text.length-1) : fullText.substring(0,text.length + 1);
@@ -44,10 +46,10 @@ export const Banner = ({contactRef})=>{
         } else if(isDeleting && updatedText === ''){
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
-            setIndex(1);
+            // setIndex(1);
             setDelta(period);
           } else {
-            setIndex(prevIndex => prevIndex + 1);
+            // setIndex(prevIndex => prevIndex + 1);
           }
     }
 
