@@ -39,7 +39,7 @@ export const NavbarContainer = ()=>{
         </Nav>
         <span className="navbar-text">
             <SocialIcons/>
-            <Nav.Link href={SumitResume} className="vvd" target='blank'><span>View Resume <span className="download"><Eye size={25} /></span></span></Nav.Link>
+            {/* <Nav.Link href={SumitResume} className="vvd" target='blank'><span>View Resume <span className="download"><Eye size={25} /></span></span></Nav.Link> */}
         </span>
       </Navbar.Collapse>
     </Container>
