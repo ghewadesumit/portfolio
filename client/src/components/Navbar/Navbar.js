@@ -1,10 +1,10 @@
 import {useState,useEffect} from 'react';
 import {Navbar, Nav, Container} from 'react-bootstrap';
-import {Eye} from 'react-bootstrap-icons';
+// import {Eye} from 'react-bootstrap-icons';
 import 'animate.css';
 import {SocialIcons} from '../SocialIcons/SocialIcons';
 import './Navbar.scss';
-import SumitResume from '../../assets/docs/Sumit Resume.pdf';
+// import SumitResume from '../../assets/docs/Sumit Resume.pdf';
 
 export const NavbarContainer = ()=>{
     const [activeLink,setActiveLink] = useState('home');
