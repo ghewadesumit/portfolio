@@ -10,8 +10,8 @@ export const SkillStarRating = ({ rating, skillName, skillIcon }) => {
   return (
     // <div className="">
     <div className="starContainer">
-      <h5 className="text">{skillName}</h5>
       <div className="iconContainer">{skillIcon}</div>
+      {/* <h5 className="text">{skillName}</h5> */}
       {/*<div className="starHolder">
         {[...Array(starRatingValue.length)].map((star, index) => {
           const ratingValue = starRatingValue[index]

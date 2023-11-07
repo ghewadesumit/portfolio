@@ -22,12 +22,16 @@ export const Skills = () => {
       items: 8,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 700 },
+      items: 5,
+    },
+    miniTablet: {
+      breakpoint: { max: 700, min: 464 },
       items: 3,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1,
+      items: 2,
     },
   }
 

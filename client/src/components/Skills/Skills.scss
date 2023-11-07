@@ -97,7 +97,7 @@
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  margin: 14px 0 75px 0;
+  margin: 14px 0 0 0;
 }
 .skill-slider {
   // width: 80%;
@@ -117,11 +117,16 @@
 }
 
 .carousel-item-padding-40-px {
-  padding-left: 40px;
-  padding-right: 40px;
+  // padding-left: 40px;
+  // padding-right: 40px;
   // width: 300px !important;
 }
 
 .react-multi-carousel-track {
-  margin: auto;
+  // margin: auto;
+}
+
+.react-multi-carousel-list {
+  // width: 100vw;
+  // margin: auto;
 }
