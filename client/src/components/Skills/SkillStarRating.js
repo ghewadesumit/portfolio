@@ -1,11 +1,11 @@
 import React from "react"
 import "./SkillStarRating.scss"
 
-import { FaStar } from "react-icons/fa"
-import { FaStarHalf } from "react-icons/fa"
+// import { FaStar } from "react-icons/fa"
+// import { FaStarHalf } from "react-icons/fa"
 
 export const SkillStarRating = ({ rating, skillName, skillIcon }) => {
-  let starRatingValue = [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]
+  // let starRatingValue = [0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]
 
   return (
     // <div className="">
