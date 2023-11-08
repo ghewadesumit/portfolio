@@ -80,8 +80,9 @@
   letter-spacing: 1px;
 }
 
+/*this must be global css applied for sections*/
 .skill-bx {
-  background: #151515;
+  background: #151515 !important;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
